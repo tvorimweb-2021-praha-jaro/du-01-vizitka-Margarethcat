@@ -1,0 +1,56 @@
+/* Takto se píše komentář v CSS */
+
+/* Zápis barev (černá barva)
+HEX kód => #000000 (RGB #rrggbb)
+RGB zápis => rgb(0, 0, 0)
+RGB zápis s průhledností => rgba(0, 0, 0, 1)
+Název barev => black
+*/
+
+/* Jak se stylují objekty: */
+
+/* 1) dle tagu */
+
+html {
+	font-style: italic;
+	font-size: 13pt;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: justify;
+}
+
+body {
+	background-color: whitesmoke
+}
+
+/* 2) dle třídy */
+
+.pink-background {
+	background-color: rgb(241, 226, 238)
+}
+
+.card {
+	border: 1px solid #000000;
+	border-radius: 50%;
+	box-shadow: 5px 8px rgb(179, 170, 170);
+	margin: 20px 30%;
+	padding: 8px;
+	text-align: center;
+}
+
+.img-wrapper {
+	text-align: center;
+}
+
+/* 3) dle identifikátoru */
+
+#profile-picture {
+	width: 200px;
+	border-radius: 50%;
+}
+
+#obsah {
+	border: 1px solid black;
+	border-radius: 0%;
+	margin: 20px 30%;
+	padding: 8px;
+}
